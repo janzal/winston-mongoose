@@ -20,11 +20,11 @@ var logger = new winston.Logger({
     }),
 
    new winston.transports.MongooseLogger({
-      level: 'debug'
+      level: 'info'
     })
   ]
 });
 
-logger.info('Info message', { a: 1, b: 2, type: 'facebook' }, function() {
+logger.debug('Info message', { a: 1, b: 2, type: 'facebook' }, function() {
   console.error(arguments);
 });
