@@ -7,6 +7,8 @@ var LogModel = null;
 var MongooseLogger = winston.transports.MongooseLogger = function (options) {
   this.name = 'mongooseLogger';
 
+  options = options || {};
+
   this.level = options.level || 'info';
   this.collection_name = options.collection_name || 'winston_log';    
 
