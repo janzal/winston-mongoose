@@ -1,0 +1,16 @@
+{
+  "name": "winston-mongoose",
+  "version": "0.0.1-alpha",
+  "description": "Winston Mongoose Transport",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Jan Zaloudek",
+  "license": "BSD",
+  "dependencies": {
+    "mongoose": "~3.8.8",
+    "winston": "~0.7.3"
+  }
+}
